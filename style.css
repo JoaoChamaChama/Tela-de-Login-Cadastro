@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./background/red-grunge-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.Principal{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    color: rgb(240, 248, 255);
+    padding: 30px 40px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(1px);
+}
+
+.Principal h1{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.login{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0 ;
+
+}
+
+.login input{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: 16px;
+    color: rgb(240, 248, 255);
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+}
+
+.login i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 44%;
+}
+
+.senha{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.senha input{
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+}
+
+.senha i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 44%
+}
+
+.lembrar-esqueci{
+    display: flex;
+    justify-content: space-between;
+    margin:  15px 0px 15px
+}
+
+.lembrar-esqueci label input{
+    accent-color: #fff;
+    margin-right: 5px ;
+}
+
+.lembrar-esqueci a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+.lembrar-esqueci a:hover{
+    text-decoration: underline;
+}
+
+.butao{
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: #333;
+    font-weight: 600;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.butao:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.Registrar{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px ;
+}
+
+.Registrar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.Registrar a:hover{
+    text-decoration: underline;
+}
